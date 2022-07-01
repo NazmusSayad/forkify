@@ -1,0 +1,19 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html --port=80 --no-source-maps",
+    "build": "parcel build index.html"
+  },
+  "author": "Jonas Schedtmann",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "latest",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "fractional": "latest"
+  }
+}
