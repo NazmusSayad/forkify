@@ -4,7 +4,7 @@
   "description": "Recipe application",
   "default": "index.html",
   "scripts": {
-    "start": "parcel index.html --port=80 --no-source-maps",
+    "start": "parcel index.html --port=80",
     "build": "parcel build index.html"
   },
   "author": "Jonas Schedtmann",
